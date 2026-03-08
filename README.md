@@ -96,3 +96,23 @@ pip install pandas numpy matplotlib seaborn scikit-learn beautifulsoup4 selenium
 
 * Build decision-support tools to solve real-world relocation dilemmas.
 
+## 📊 Extra feature- Interactive Web Dashboard (Streamlit)
+
+
+As a major component of this project, we developed a simple, dynamic, interactive web application using **Streamlit** and **Plotly**. This dashboard moves beyond static analysis, allowing users to generate personalized city recommendations based on their unique lifestyle priorities.
+
+### 🌟 Dashboard Features
+* **Custom Preference Weights:** Users can assign a weight (0–10) to 11 different indicators, including Disposable Income, Crime Index, Health Care Quality, and Climate (Very hot days).
+* **Hard Constraints (Filters):** Users can set strict minimum or maximum thresholds for specific metrics (e.g., setting a maximum cap on average rent prices).
+* **Smart Recommendation Engine:** The app computes a customized "Match %" for each city by ranking and weighting the user's active criteria (automatically adjusting for metrics where "lower is better", like unemployment or crime).
+* **Dynamic Visualizations:** * **Podium & Rankings:** A clear breakdown of your top 5 matched cities.
+    * **Economic Profile:** Grouped bar charts comparing salaries, rent, cost of living, and disposable income.
+    * **Safety & Mobility:** Visual comparisons of crime rates, unemployment, and traffic indexes.
+    * **Radar Charts:** A normalized comparison mapping how the top cities perform against each other across all your chosen metrics.
+
+### 🖥️ How to Run the Dashboard
+
+Make sure you have installed the required dashboard dependencies:
+```bash
+pip install streamlit plotly
+```
