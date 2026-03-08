@@ -71,14 +71,18 @@ We leveraged the Python ecosystem to transform raw data into actionable insights
 **1. Clone the repository**
 ```bash
 git clone [https://github.com/MiguelMelo006/Programming-for-Data-Science-Final-Project.git](https://github.com/MiguelMelo006/Programming-for-Data-Science-Final-Project.git)
+ ```
+
 
 **2. Navigate to the folder**
 ```bash
 cd Programming-for-Data-Science-Final-Project 
+```
 
 **3. Install dependencies**
 ```bash
 pip install pandas numpy matplotlib seaborn scikit-learn beautifulsoup4 selenium
+```
 
 **4. Launch the notebook**
 (Then run the project notebook step by step.)
